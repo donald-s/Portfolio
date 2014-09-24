@@ -1,0 +1,28 @@
+// ******************************************
+//  Global Utilities
+// ******************************************
+
+// Import if Google URL is defined
+@if variable-exists(font-url--google) {
+    @import url($font-url--google);
+}
+
+// Calculate em values
+@function em($target, $context: $base__text-size) {
+    @return ($target / $context) * 1em;
+}
+
+// Mixins
+@mixin background-img($img, $w, $h, $disp:block) {
+    background-image: url("#{path-img}/#{$img}");
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:$w;
+    height:$h;
+    display:$disp;
+}
+
+@mixin margins {
+    margin-top:125px;
+    margin-bottom:125px;
+}

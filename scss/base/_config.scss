@@ -1,0 +1,45 @@
+// ******************************************
+//  Global Config
+// ******************************************
+
+// Asset Paths
+$path-img: "../img/";
+
+$img: "https://unsplash.imgix.net/11/santa-monica-beach.jpg?q=75&fm=jpg&auto=format&s=f0508ff918f57849526f09b023c578cd";
+
+
+// Font Stacks
+$font-url--google: "http://fonts.googleapis.com/css?family=Raleway:400,100,300,500";
+
+
+$font-family--title: 'Raleway', Helvetica, sans-serif !important;
+$font-family--text: "Proxima Nova", Helvetica, sans-serif !important;
+
+// Font Weights
+$font-weight--thin: 100;
+$font-weight--light: 300;
+$font-weight--medium: 400;
+$font-weight--bold: 700;
+
+// Descriptive Base Colors
+$grey-primary:#555;
+$grey-light: #666;
+$grey-medium: #444;
+$grey-dark: #333;
+
+$white-dark:#f5f5f5;
+$white:#fff;
+
+$black: #111;
+
+$emerald: #27ae60;
+
+// Color Usage
+$color-primary--title: $black;
+$color-primary--text: $grey-primary;
+$color-accent: $emerald;
+
+// Text
+$base__title-size: 30px;
+$base__text-size: 15px;
+

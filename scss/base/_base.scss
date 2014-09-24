@@ -1,0 +1,45 @@
+// ******************************************
+//  Global Styles
+// ******************************************
+
+html,
+body {
+    margin:none;
+    padding:none;
+    height:100%;
+}
+
+body {
+    font-size: $base__text-size;
+    font-family: $font-family--text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:$font-family--title;
+}
+
+h1 {
+    font-size:em(40px);
+}
+
+h2 {
+    font-size:em(32px);
+}
+
+h3 {
+    font-size:em(28px);
+}
+
+h4 {
+    font-size:em(24px);
+}
+
+p {
+    font-size:15px;
+    color:#555;
+}

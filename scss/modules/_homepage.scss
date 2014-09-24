@@ -1,0 +1,153 @@
+
+/***************************
+*   Homepage (index)
+****************************/
+
+.homepage__section--intro {
+    background-image:url($img);
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width:100%;
+    height:100%;
+    text-align:center;
+    padding-top:13%;
+    h1 {
+        color:$color-primary--title;
+        font-size:3.75em;
+        font-weight:400;
+    }
+    h2 {
+        color:#333;
+        font-size:2em;
+        font-weight:400;
+    }
+    .about-btn {
+        font-family:$font-family--text;
+        font-size:1.25em;
+        border:none;
+        background:none;
+        border:1px solid $emerald;
+        border-radius:5px;
+        color:$emerald;
+        padding:0.5em 1em 0.5em 1em;
+        margin-right:1em;
+        &:hover {
+            background:$emerald;
+            color:$white;
+        }
+    }
+    .contact-btn {
+        font-family:$font-family--text;
+        font-size:1.25em;
+        border:none;
+        background:none;
+        border:1px solid $white;
+        border-radius:5px;
+        color:$white;
+        padding:0.5em 1em 0.5em 1em;
+        margin-left:1em;
+        &:hover {
+            background:#fff;
+            color:#000;
+        }
+    }
+}
+
+
+.homepage__section--featured {
+    width:100%;
+    height:25em;
+    background-color:#f5f5f5;
+    text-align:center;
+    h3 {
+        color:#555;
+    }
+    h2 {
+        color:#111;
+    }
+    p {
+        text-align:left;
+        font-weight:500;
+        text-indent:2em;
+    }
+}
+
+
+.homepage__secton--about {
+    padding-right:3.5em;
+    padding-left:3.5em;
+    text-align:center;
+    @include margins;
+    h2 {
+        color:$color-primary--title;
+    }
+    .profile-img {
+        border:1px solid #fff;
+        border-radius:50%;
+    }
+    p {
+        text-align:left;
+        font-weight:500;
+        text-indent:2em;
+    }
+}
+
+
+.homepage__section--portfolio {
+    text-align:center;
+    @include margins;
+    a:hover {
+        text-decoration:none;
+    }
+    h2 {
+        margin-bottom:2em;
+    }
+    .image-container {
+        height:12em;
+        width:20em;
+    }
+    h4 {
+        padding-top:em(3px);
+        font-size:1.1em;
+        font-weight:600;
+        color:$grey-dark;
+    }
+    .project-container {
+        margin:0 auto;
+        height:15em;
+        width:20em;
+        margin:0 auto;
+        border:1px solid #efefef;
+        border-radius:5px;
+        &:hover {
+            opacity:0.5;
+        }
+    }
+}
+
+
+
+.homepage__section--contact {
+    text-align:center;
+    margin-top:2.5em;
+    padding-top:em(75px);
+    padding-bottom:em(175px);
+    background: url($img) no-repeat center center fixed;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    h1 {
+        font-size:3em;
+        color:$grey-medium;
+        font-weight:400;
+    }
+    a {
+        font-size:3em;
+        color:$emerald;
+        text-shadow:0 0 0 4px rgba(0,0,0, 0.8);
+    }
+}
