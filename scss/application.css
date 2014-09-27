@@ -5760,8 +5760,8 @@ button.close {
   padding-right: 3.5em;
   padding-left: 3.5em;
   text-align: center;
-  margin-top: 125px;
-  margin-bottom: 125px; }
+  margin-top: 8.33333em;
+  margin-bottom: 8.33333em; }
   .homepage__secton--about h2 {
     color: #111; }
   .homepage__secton--about .profile-img {
@@ -5774,8 +5774,8 @@ button.close {
 
 .homepage__section--portfolio {
   text-align: center;
-  margin-top: 125px;
-  margin-bottom: 125px; }
+  margin-top: 8.33333em;
+  margin-bottom: 8.33333em; }
   .homepage__section--portfolio a:hover {
     text-decoration: none; }
   .homepage__section--portfolio h2 {
@@ -5818,6 +5818,30 @@ button.close {
     font-size: 3em;
     color: #27ae60;
     text-shadow: 0 0 0 4px rgba(0, 0, 0, 0.8); }
+
+/***************************
+*   Homepage Media Queries
+****************************/
+/***************************
+*   Small Viewport
+****************************/
+@media (min-width: 1px) and (max-width: 768px) {
+  .homepage__section--intro {
+    padding-top: 30%; } }
+
+@media (min-width: 1px) and (max-width: 768px) {
+  .homepage__section--featured {
+    height: 40em; } }
+
+@media (min-width: 1px) and (max-width: 768px) {
+  .homepage__section--portfolio .project-container {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; } }
+
+@media (min-width: 1px) and (max-width: 768px) {
+  .homepage__section--contact a {
+    font-size: 2.25em; } }
 
 /***************************
 *   Project Pages

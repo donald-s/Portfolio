@@ -23,6 +23,29 @@
 }
 
 @mixin margins {
-    margin-top:125px;
-    margin-bottom:125px;
+    margin-top:em(125px);
+    margin-bottom:em(125px);
+}
+
+// Media Queries
+@mixin mq($break) {
+    @if $break == "small" {
+        @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+            @content;
+        }
+    }
+    @else if $break == "medium" {
+        @media (min-width: $brkpoint-md) and (max-width:$brkpoint-lg) {
+            @content;
+        }
+    }
+    @else if $break == "large" {
+        @media (min-width: $brkpoint-lg) {
+            @content;
+        }
+    }
+    @else {
+        @error "Whoops! No value could be retrived for '#{$break}'.";
+    }
+
 }
