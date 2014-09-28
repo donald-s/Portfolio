@@ -22,6 +22,22 @@
     display:$disp;
 }
 
+@mixin intro-button ($main-color, $text-color) {
+    font-family:$font-family--text;
+        font-size:1.25em;
+        border:none;
+        background:none;
+        border:1px solid $main-color;
+        border-radius:5px;
+        color:$main-color;
+        padding:0.5em 1em 0.5em 1em;
+        margin-right:1em;
+        &:hover {
+            background:$main-color;
+            color:$text-color;
+        }
+}
+
 @mixin margins {
     margin-top:em(125px);
     margin-bottom:em(125px);

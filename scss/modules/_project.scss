@@ -11,13 +11,10 @@
     background: url($img) no-repeat center center;
     padding-top:5em;
     width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    @include background-size(cover);
     position: relative;
     h2 {
-        color:#444;
+        color:$grey-medium;
         font-weight:400;
     }
 }
