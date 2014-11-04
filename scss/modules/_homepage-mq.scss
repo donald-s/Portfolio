@@ -8,7 +8,14 @@
 .homepage__section--intro {
     @include mq(small) {
         padding-top:30%;
+        background-repeat:no-repeat !important;
     }
+}
+
+.contact-btn {
+  @include mq(small) {
+    margin-top:1em;
+  }
 }
 
 .homepage__section--featured {
