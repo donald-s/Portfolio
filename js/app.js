@@ -22,6 +22,10 @@ app.config(function ($routeProvider) {
             templateUrl: 'views/random-quote.html',
             controller: 'PortfolioCtrl'
         })
+        .when('/product-button', {
+            templateUrl: 'views/product-button.html',
+            controller: 'PortfolioCtrl'
+        })
         .otherwise({
             redirectTo: '/'
         });

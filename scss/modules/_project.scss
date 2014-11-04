@@ -33,5 +33,84 @@
     p {
         text-align:left;
         text-indent:2em;
+        font-size:17px;
     }
 }
+
+
+
+/***************************
+*   Tech Images
+****************************/
+@mixin tech-img-margin {
+    margin-right:10px;
+    margin-left:10px;
+}
+
+
+.img__tech--html {
+    @include tech-img-margin;
+    width:100px;
+}
+
+.img__tech--sass {
+    @include tech-img-margin;
+    width:75px;
+}
+
+.img__tech--angular {
+    @include tech-img-margin;
+    width:150px;
+}
+
+.img__tech--php {
+    @include tech-img-margin;
+    width:85px;
+}
+
+.img__tech--js {
+    @include tech-img-margin;
+    width:50px;
+}
+
+
+
+/***************************
+*   Featured In Images
+****************************/
+.project__section--featured {
+    text-align:center;
+    margin:0 auto;
+    h4 {
+        font-size:1.25em;
+        color:#888;
+    }
+}
+
+.img__press--ph {
+    @include tech-img-margin;
+    width:200px;
+}
+
+.img__press--dot {
+    @include tech-img-margin;
+    width:150px;
+}
+
+.img__press--freesoftware {
+    @include tech-img-margin;
+    width:125px;
+}
+
+.img__press--ph-hack {
+    @include tech-img-margin;
+    width:150px;
+}
+
+
+
+
+
+
+
+
