@@ -66,7 +66,7 @@ function inits () {
         $('html, body').animate({
             scrollTop: $(context).offset().top
         }, 500);
-        return false;
+        return true;
     });
 }
 
