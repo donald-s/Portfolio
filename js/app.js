@@ -62,9 +62,8 @@ function inits () {
 
     // Scroll
     $('a').click(function(){
-        var context = this;
         $('html, body').animate({
-            scrollTop: $(context).offset().top
+            scrollTop: 0
         }, 500);
         return true;
     });
